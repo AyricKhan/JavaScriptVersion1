@@ -1,5 +1,5 @@
- /// There is a special syntax to work with promises in javaScript..
- ///  A function can be made async by using async keyword like this...
+/// There is a special syntax to work with promises in javaScript..
+///  A function can be made async by using async keyword like this...
 
 //  async function laibu(){
 //     return 10;
@@ -24,29 +24,30 @@
 
 //// now i use in this program what is featch API...
 
-async function getData() {
-    //Simulate get data from a server
-    let x= await fetch('https://jsonplaceholder.typicode.com/todos/1')
-    let data = await x.json()
-    console.log(data)
-    return 455
-     
-}
-async function main(){
-    console.log("loading modules")
+// async function getData() {
+//     //Simulate get data from a server
+//     let x = await fetch('https://jsonplaceholder.typicode.com/todos/1')
+//     let data = await x.json()
+//     console.log(data)
+//     return 455
+
+// }
+// async function main() {
+//     console.log("loading modules")
 
 
-console.log("do somthing else")
+//     console.log("do somthing else")
 
-console.log("load data")
-let data =  await getData()
-console.log(data)
+//     console.log("load data")
+//     let data = await getData()
+//     console.log(data)
 
-console.log("proces data")
-console.log("task 2")
+//     console.log("proces data")
+//     console.log("task 2")
 
-}
-main()
+// }
+// main()
+
 
 
 // let data =getData()
@@ -59,3 +60,23 @@ main()
 // console.log("task 2")
 
 // })
+
+
+// async function getData() {
+//     //simulate get data from a server
+//     let x = await fetch('https://jsonplaceholder.typicode.com/todos/1')
+//     let data = await x.json()
+//     console.log(data)
+//     return 455
+// }
+
+// async function main() {
+//     console.log("loading modulas")
+// }
+// console.log("do somthing else")
+// console.log("load data")
+// let data = await getData()
+// console.log(data)
+
+// console.log("proces data")
+// console.log("task 2")

@@ -120,17 +120,64 @@
 // console.log(arr.join(" and "))
 
 
- 
+
 // let numbers = [1, 2, 3, 4, 5] 
 // numbers.splice(1, 2)    
 // numbers.splice(1, 3)  
 // numbers.splice(1, 3, 222, 333) 
 // (4) [1, 222, 333, 5]
-let a1 =[1,2,3]
-let a2 =[4,5,6]
-let a3 =[7,8,9]
+// let a1 =[1,2,3]
+// let a2 =[4,5,6]
+// let a3 =[7,8,9]
 
-a1.concat(a2,a3)
+// a1.concat(a2,a3)
 
+
+// featching data 
+
+
+// async function getData() {
+//     let l= await fetch('https://jsonplaceholder.typicode.com/todos/1')
+//     let data = await l.json()
+//     console.log(data)
+//     return 455
+
+// }
+//  async function main() {
+//     console.log("loading modules")
+
+
+//  console.log("do somthing else")
+//  console.log("load data")
+//  let data = await getData()
+//  console.log(data)
+
+//  console.log("proces data")
+//  console.log("task 2")
+// }
+// main()
+
+
+// promise is a code of execuation
+function getData() {
+    return new Promise((resolve, reject) => {
+        setTimeout(() => {
+
+        }, 3500);
+    })
+
+}
+console.log("loading module")
+
+console.log("do somthing else")
+
+console.log("load data")
+
+let data = getData()
+
+data.then((v) => {
+    console.log("process data")
+    console.log("task 2")
+})
 
 
