@@ -159,26 +159,50 @@
 
 
 // promise is a code of execuation
-function getData() {
-    return new Promise((resolve, reject) => {
-        setTimeout(() => {
+// async function getData() {
+//     return new Promise((resolve, reject) => {
+//         setTimeout(() => {
+//             resolve(455)
 
-        }, 3500);
-    })
+//         }, 3500);
+//     })
 
-}
-console.log("loading module")
+// }
 
-console.log("do somthing else")
 
-console.log("load data")
+// settle means resolve or reject
+// resolve means promise has settled sucessfully
+// reject means promise has not settles succefully
 
-let data = getData()
+// https://jsonplaceholder.typicode.com/posts
+//  i can use a loats of multiple api from this side..
+// async function getData() {
+//     let x =await fetch('https://jsonplaceholder.typicode.com/todos/1')
+//     let data =await x.json()
+//      return data
 
-data.then((v) => {
-    console.log("process data")
-    console.log("task 2")
-})
+// }
+// async function main() {
+    
+
+// console.log("loading module")
+
+// console.log("do somthing else")
+
+// console.log("load data")
+
+// let data = await getData()
+// console.log(data)
+//     console.log("process data")
+//     console.log("task 2")
+// }
+// main()
+
+// data.then((v) => {
+//     console.log(data)
+//     console.log("process data")
+//     console.log("task 2")
+// })
 
 
 
