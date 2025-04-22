@@ -1,0 +1,19 @@
+{
+  "name": "music",
+  "version": "1.0.0",
+  "description": "this is a music clone for my app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "music",
+    "my"
+  ],
+  "author": "Laraib",
+  "license": "ISC",
+  "dependencies": {
+    "slugify": "^1.6.6"
+  }
+}

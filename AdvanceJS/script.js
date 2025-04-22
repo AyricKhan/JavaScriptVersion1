@@ -19,3 +19,10 @@ console.log(b)
 
 // Destructuring
 // Destructuring assignments is used to unpack values from an array, or properties. from object, ito distenct varibles.
+
+
+// AdvanceJava
+// IIFE(Immediately Invoked Function Expression)
+//Destructuring
+//Spread Syntax 
+// StartingProjectOf SpotifyClone
